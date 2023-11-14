@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#canvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+	border-radius: 60px;
+	box-shadow: 10px 10px 15px white;
+}
+
+h1,h3,h4
+{
+	color: rgb(43, 255, 160) !important;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Parking Cars </title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Parking Cars</h1>
+<h3>Mueve el carro con las flechas o WASD</h3>
+<h4>
+	<b class="text-danger">NOTE : </b> SI TU CARRO NO SE VE EN LA PANTALLA PULSA ALGUNA TECLA PARA MOVERTE
+</h4>
+
+	<!--- Create Canvas--->
+	<canvas id="canvas" width="800px" height="400"></canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
